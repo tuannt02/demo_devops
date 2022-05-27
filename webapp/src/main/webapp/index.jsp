@@ -1,3 +1,3 @@
-<h1> Hello, toi la truong ban dayy </h1>
-<h2> HAHA </h2>
+<h1> Hello, i'm from group 13 </h1>
+<h2> Nice to meet you </h2>
 
