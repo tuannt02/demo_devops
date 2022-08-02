@@ -10,6 +10,10 @@
        <img src="2022-08-02 20-18-58.gif"><br>
        <a href="https://youtu.be/opvoS4-yUgg?t=101">Checkpoint 1: Charleston</a>
     </p> </th>
+    <th> <p align="center">
+       <img src="2022-08-02 20-18-58.gif"><br>
+       <a href="https://youtu.be/opvoS4-yUgg?t=101">Checkpoint 1: Charleston</a>
+    </p> </th>
 </tr>
 <tr>
     <th> <p align="center">
