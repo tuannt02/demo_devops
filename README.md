@@ -7,7 +7,7 @@
        <a href="https://youtu.be/opvoS4-yUgg?t=11">Checkpoint 0: Charleston</a>
     </p> </th>
     <th> <p align="center">
-       <img src="https://firebasestorage.googleapis.com/v0/b/clothnest-da508.appspot.com/o/utils%2F2022-08-02%2020-18-58.gif?alt=media&token=0d70048d-a13b-43fa-a251-5bb4ba513de0"><br>
+       <img src="2022-08-02 20-18-58.gif"><br>
        <a href="https://youtu.be/opvoS4-yUgg?t=101">Checkpoint 1: Charleston</a>
     </p> </th>
 </tr>
