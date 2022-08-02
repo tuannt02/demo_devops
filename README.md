@@ -2,8 +2,8 @@
 <summary><strong>Preview Checkpoints</strong></summary> <br>
 <table style="width:100%">
 <tr>
-    <th> <p align="center">
-       <img src="https://firebasestorage.googleapis.com/v0/b/clothnest-da508.appspot.com/o/utils%2F2022-08-02%2020-18-58.gif?alt=media&token=ffe874cf-8f7c-4297-a5d2-72e97691378c"><br>
+    <th> <p align="center" style="width:30%">
+       <img src="https://firebasestorage.googleapis.com/v0/b/clothnest-da508.appspot.com/o/utils%2F2022-08-02%2020-18-58.gif?alt=media&token=0d70048d-a13b-43fa-a251-5bb4ba513de0"><br>
        <a href="https://youtu.be/opvoS4-yUgg?t=11">Checkpoint 0: Charleston</a>
     </p> </th>
     <th> <p align="center">
