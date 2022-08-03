@@ -1,7 +1,7 @@
 <details open>
 <summary><strong>Preview</strong></summary> <br>
     <details open>
-        <summary><strong>Client</strong></summary> <br>
+        <summary style="margin-right: 30px;"><strong>Client</strong></summary> <br>
 <table style="width:100%">
 <tr>
     <th> <p align="center" style="width:30%">
