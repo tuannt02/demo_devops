@@ -4,7 +4,7 @@
 <tr>
     <th> <p align="center" style="width:30%">
        <img src="2022-08-02 20-18-58.gif"><br>
-       <a href="https://youtu.be/opvoS4-yUgg?t=11](https://github.com/tuannt02/Clothnest">Checkpoint 0: Charleston</a>
+       <a href="https://github.com/tuannt02/Clothnest">Checkpoint 0: Charleston</a>
     </p> </th>
     <th> <p align="center">
        <img src="2022-08-02 20-18-58.gif"><br>
