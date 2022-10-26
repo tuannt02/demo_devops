@@ -1,78 +1,83 @@
-<details open>
-<summary><strong>Preview</strong></summary> <br>
-    <dl><dd><details open>
-        <summary><strong>Client</strong></summary> <br>
-<table style="width:100%">
-<tr>
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/client/01_homepage.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 1: Homepage</a>
-    </p> </th>
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/client/02_chat_client.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 2: Chat client</a>
-    </p> </th>
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/client/03_detail.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 3: Detail</a>
-    </p> </th>
-</tr>
-<tr>
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/client/04_cart.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 4: Cart</a>
-    </p> </th>    
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/client/05_search.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 5: Search</a>
-    </p> </th>
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/client/06_wishlist.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 6: Wishlist</a>
-    </p> </th>
-</tr>
-    <tr>
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/client/07_orders.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 7: Orders</a>
-    </p> </th>    
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/client/08_address.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 8: Address</a>
-    </p> </th>
-</tr>
-</table>
-    </details></dd></dl>
-    <dl><dd><details>
-        <summary><strong>Admin</strong></summary> <br>
-<table style="width:100%">
-<tr>
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/admin/01_manage_product.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 1: Manage product</a>
-    </p> </th>
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/admin/02_chat_admin.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 2: Chat admin</a>
-    </p> </th>
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/admin/03_transactions.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 3: Transactions</a>
-    </p> </th>
-</tr>
-<tr>
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/admin/04_grant_permission.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 4: Grant permission</a>
-    </p> </th>    
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/admin/05_statistics.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 5: Statistics</a>
-    </p> </th>
-    <th> <p align="center">
-       <img src="https://github.com/tuannt02/resource/blob/main/clothnest/admin/06_manage.gif"><br>
-       <a href="https://github.com/tuannt02/Clothnest">View 6: Manage</a>
-    </p> </th>
-</table>
-    </details></dd></dl>
-</details>
+## Folder Structure
+
+```
+.src/
+├── assets                              # Lưu ảnh, icon, ...                                        #Care
+├── component                           # Chứa các component chung dùng mọi nơi                     #Care
+  ├── form
+    ├── Checkbox
+    ├── FormInput
+    └── ...
+  ├── ui
+      ├── Button
+      ├── Breadcrumb
+      └── ...
+├── config                              # Lưu config của ứng dụng                                   #Care
+├── data                                # Lưu dữ liệu không thay đổi                                #Care
+├── features                            # Các features của ứng dụng                                 #Care
+  ├── auth
+      ├── components                    # Component chung chỉ dành cho feature Auth
+          ├── SigninForm  
+          ├── SignupForm
+          └── ForgetPasswordForm
+      ├── hooks                         # Hook chỉ dành cho feature Auth
+      ├── services                      # Service chỉ dành cho feature Auth
+      └── index.js                      # Entry point, muốn export ra cái gì thì nằm ở đây
+  ├── courses
+  ├── exam
+  ├── flashcard
+  └── contest
+├── hooks                               # Hook globals
+├── layouts                             # Chứa các layout bố cục màn hình                           #Care
+├── lib                                 # Thư viện bên thứ 3
+├── pages                               # Chứa những page chỉ tồn tại duy nhất                      #Care
+  ├── Home
+  ├── Signin
+  ├── Signup
+  └── ...
+├── routes                              # Chứa các routes điều hướng trang web                      #Care
+├── services                            # Viết service gọi api ở đây
+└── utils                               # Chứa những pure function để thực hiện tác vụ nào đó
+```
+
+## Naming convention
+- camelCase: tên biến, thuộc tính của object,...
+- PascalCase: tên file của Component 
+
+## File cấu hình:
+
+|         File          |                        Ý nghĩa                        |
+| :-------------------: | :---------------------------------------------------: |
+|     `.gitignore`      |        Không theo dõi những file được liệt kê         |
+|     `.prettierrc`     |             Chứa các quy tắc format code              |
+|   `.prettierignore`   | Không áp dụng format code cho những file được liệt kê |
+| `.tailwind.config.js` |   Ghi đè và bổ sung cấu hình mặc định của tailwind    |
+|  `postcss.config.js`  |               Biên dịch pre-css -> css                |
+
+## Extensions VSC
+
+|            Name             |                   Ý nghĩa                    |
+| :-------------------------: | :------------------------------------------: |
+|      `Auto Rename Tag`      |       Auto rename paired HTML/XML tag        |
+|      `Auto Close Tag`       |     Automatically add HTML/XML close tag     |
+|  `Prettier Code formatter`  |                 Format code                  |
+|   `Simple React Snippets`   |      Cú pháp để tạo ra 1 đoạn code nhỏ       |
+| `Tailwind CSS IntelliSense` |           Biên dịch pre-css -> css           |
+|    `Material Icon Theme`    |          Bộ icon cho file và folder          |
+|          `Gitlens`          | Hiển thị thông tin Git (commit, author, ...) |
+
+## Extensions for Dev (on Chrome)
+
+|          Name           |         Ý nghĩa         |
+| :---------------------: | :---------------------: |
+| `React Developer Tools` |  React debugging tools  |
+|    `Redux DevTools`     | Quản lí state trực quan |
+
+## Members:
+
+|         Name          |         Email          |
+| :-------------------: | :--------------------: |
+| `Hoàng Đình Anh Tuấn` | 20522110@gm.uit.edu.vn |
+|   `Hoàng Văn Phúc`    | 20521760@gm.uit.edu.vn |
+|    `Phan Thanh Tú`    | 20522101@gm.uit.edu.vn |
+|  `Nguyễn Thái Tuấn`   | tuannt150102@gmail.com |
